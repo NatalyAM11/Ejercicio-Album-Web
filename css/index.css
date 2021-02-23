@@ -1,0 +1,68 @@
+body{
+    height: 100vh;
+    margin: 0 px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.album{
+    display: block;
+    width: 58%;
+    background-color: rgb(44, 44, 44);
+    padding: 20px;
+    border-radius: 10px;   
+}
+
+.album__header{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.album__header *{
+    margin: 0px;
+    
+}
+
+.album__content{
+    display: block;
+    position: relative;
+    display: flex;    
+ }
+
+ .album__text{
+     display: block;
+     width: 55%;
+     padding: 10px;
+ }
+
+ .album__img{
+    position: absolute;
+    top: 0;
+    right:0;
+}
+
+.album__footer{
+    width: 200px;
+    background-color: rgb(252, 44, 44);
+    padding: 10px;
+    display: flex;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.youtubeBtn{
+    width: 40px;
+    height: 100%;
+    margin-right: 10px;
+}
+
+a{
+    display: flex;
+    align-items: center;
+    color:white;
+   
+}
+
